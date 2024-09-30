@@ -1,6 +1,3 @@
-/* Denna kod representerar slutresultatet om ni följer lektionsdokumentet. 
-Om ni vill testa att koppla det till er webbsida, ange 
-<script src="script-lektionsdokument.js"></script> istället för <script src="script.js"></script> direkt innan </body> */
 let sum = 0;
 let a = 1;
 let b = 2;
@@ -65,13 +62,6 @@ const example4 = () => console.log('Arrow-function med bara en rad');
 
 example4();
 
-const arrowFunction = (question) => {
-  let answer = 'good bye';
-  if (question) {
-    answer = 'world';
-  }
-  return question + ' ' + answer;
-};
-
-console.log(arrowFunction());
-console.log(arrowFunction('Hello'));
+/* Denna kod representerar slutresultatet om ni följer lektionsdokumentet. 
+Om ni vill testa att koppla det till er webbsida, ange 
+<script src="script-lektionsdokument.js"></script> istället för <script src="script.js"></script> direkt innan </body> */
