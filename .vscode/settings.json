@@ -5,5 +5,8 @@
   "html.format.wrapAttributes": "force-aligned",
   "prettier.printWidth": 120,
   "html.format.wrapLineLength": 120,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.singleQuote": true,
+  "prettier.bracketSameLine": true,
+  "prettier.semi": true
 }
