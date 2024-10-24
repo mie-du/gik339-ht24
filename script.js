@@ -16,7 +16,7 @@ function getUserWithoutPromise() {
 function getUserWithPromise(ok) {
   return new Promise((reslove, reject) => {
     setTimeout(() => {
-      if (ok) reject(printTimeStamp() + ' Något blev fel');
+      if (!ok) reject(printTimeStamp() + ' Något blev fel');
       else reslove({ firstName: 'Mikaela' });
     }, 3000);
   });
