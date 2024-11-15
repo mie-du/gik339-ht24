@@ -58,3 +58,37 @@ example3('test');
 const example4 = () => console.log('Arrow function med bara en rad');
 
 example4();
+
+const arrowFunction = (question) => {
+  if (question) {
+    let answer = 'world';
+  }
+  return question + ' ' + answer;
+};
+
+/* let call2 = arrowFunction('hello');
+const call1 = arrowFunction();
+
+console.log(call1);
+console.log(call2); */
+
+console.log(0 == 0);
+console.log(0 == false);
+console.log(0 == undefined);
+console.log(0 == null);
+console.log(0 == '');
+
+console.log(null == null);
+console.log(null == false);
+console.log(null == undefined);
+console.log(null == 0);
+console.log(null == '');
+console.log(null == '0');
+
+console.log(undefined ? 'truthy' : 'falsy');
+console.log(null ? 'truthy' : 'falsy');
+console.log(0 ? 'truthy' : 'falsy');
+console.log('' ? 'truthy' : 'falsy');
+console.log(-1 ? 'truthy' : 'falsy');
+console.log(1 ? 'truthy' : 'falsy');
+console.log({} ? 'truthy' : 'falsy');
