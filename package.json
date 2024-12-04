@@ -1,0 +1,26 @@
+{
+  "name": "gik339-ht24",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mie-du/gik339-ht24.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mie-du/gik339-ht24/issues"
+  },
+  "homepage": "https://github.com/mie-du/gik339-ht24#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "sqlite3": "^5.1.7"
+  }
+}
