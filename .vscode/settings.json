@@ -2,7 +2,7 @@
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "editor.wordWrap": "wordWrapColumn",
-    "html.format.wrapAttributes": "preserve-aligned",
+  "html.format.wrapAttributes": "preserve-aligned",
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
