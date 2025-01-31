@@ -2,7 +2,10 @@
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "editor.wordWrap": "wordWrapColumn",
-  "html.format.wrapAttributes": "force-aligned",
+    "html.format.wrapAttributes": "preserve-aligned",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
   "prettier.printWidth": 80,
   "html.format.wrapLineLength": 80,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
